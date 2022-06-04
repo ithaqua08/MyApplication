@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // "DataStore"という名前でインスタンスを生成
+        // "DataStore"という名前でインスタンスを生成する
         dataStore = getSharedPreferences("DataStore", MODE_PRIVATE);
 
         editText = findViewById(R.id.edit_text);
